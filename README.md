@@ -12,4 +12,6 @@ It the following methods for any cases class or Tuple:
 These enhancement methods are provided by an implicit class for every Product
 which has the implicit class in scope.
 
+Due to the extended methods on 'scala.Product' this solution is only possible in Scaala 2.13.x and above.
+
 Several subsequent steps lead to the final solution.
