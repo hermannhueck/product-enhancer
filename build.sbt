@@ -6,8 +6,10 @@ val scala212               = "2.12.10"
 val scala213               = "2.13.1"
 val supportedScalaVersions = List(scala213)
 
-val collectionCompat = "org.scala-lang.modules" %% "scala-collection-compat" % "2.1.2"
-val shapeless        = "com.chuusai"            %% "shapeless"               % "2.3.3"
+def scalaReflect(scalaVersion: String) = "org.scala-lang"         % "scala-reflect"            % scalaVersion
+val collectionCompat                   = "org.scala-lang.modules" %% "scala-collection-compat" % "2.1.2"
+val shapeless                          = "com.chuusai"            %% "shapeless"               % "2.3.3"
+val circe                              = "io.circe"               %% "circe-core"              % "0.12.2"
 
 val scalaTest  = "org.scalatest"  %% "scalatest"  % "3.0.8"
 val scalaCheck = "org.scalacheck" %% "scalacheck" % "1.14.2"
@@ -28,8 +30,10 @@ inThisBuild(
       // "-Xfatal-warnings" // turn compiler warnings into errors
     ),
     libraryDependencies ++= Seq(
+      scalaReflect(scalaVersion.value),
       collectionCompat,
       shapeless,
+      circe,
       scalaTest  % Test,
       scalaCheck % Test
     ),
@@ -41,6 +45,7 @@ inThisBuild(
           |import shapeless.ops.record._
           |import shapeless.ops.hlist
           |import shapeless.tag._
+          |import io.circe._
           |println
           |""".stripMargin // initialize REPL
   )
