@@ -1,4 +1,4 @@
-package playground
+package product.playground
 
 import scala.util.chaining._
 

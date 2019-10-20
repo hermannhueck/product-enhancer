@@ -5,12 +5,12 @@
   The solution still uses Tuples and is not generic, not usable for any case class or Tuple.
  */
 
-package caseclasses02
+package product.enhancer02
 
 import scala.util.chaining._
 import util._
 
-import json.Json
+import product.json.Json
 
 case class Employee(name: String, age: Int, manager: Boolean)
 

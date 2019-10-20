@@ -6,12 +6,12 @@
   The solution is generic, but the implicit class 'ProductOps' is located inside the object MyApp.
  */
 
-package caseclasses04
+package product.enhancer04
 
 import scala.util.chaining._
 import util._
 
-import json.Json
+import product.json.Json
 
 case class Employee(name: String, age: Int, manager: Boolean)
 

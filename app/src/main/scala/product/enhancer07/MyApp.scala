@@ -3,7 +3,7 @@
   But this approach was not successful.
  */
 
-package caseclasses07
+package product.enhancer07
 
 import scala.util.chaining._
 import util._

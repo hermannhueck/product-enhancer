@@ -2,7 +2,7 @@
   In the 5th version the implicit class has been moved into it' own file 'ProductEnhancer.scala'
  */
 
-package caseclasses05
+package product.enhancer05
 
 import scala.util.chaining._
 import util._

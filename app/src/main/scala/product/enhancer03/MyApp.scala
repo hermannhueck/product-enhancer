@@ -8,12 +8,12 @@
   But the impl does no longer depend on this case class but only on 'scala.Product'.
  */
 
-package caseclasses03
+package product.enhancer03
 
 import scala.util.chaining._
 import util._
 
-import json.Json
+import product.json.Json
 
 case class Employee(name: String, age: Int, manager: Boolean)
 

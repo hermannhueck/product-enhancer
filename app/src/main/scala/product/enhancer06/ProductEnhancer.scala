@@ -1,6 +1,6 @@
-package caseclasses05
+package product.enhancer06
 
-import json.Json
+import product.json.Json
 
 object ProductEnhancer {
 

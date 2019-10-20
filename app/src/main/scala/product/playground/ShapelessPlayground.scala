@@ -1,4 +1,4 @@
-package playground
+package product.playground
 
 import shapeless._
 import shapeless.ops.record.Keys

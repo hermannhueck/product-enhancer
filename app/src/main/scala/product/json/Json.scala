@@ -1,4 +1,4 @@
-package json
+package product.json
 
 import scala.util.chaining._
 

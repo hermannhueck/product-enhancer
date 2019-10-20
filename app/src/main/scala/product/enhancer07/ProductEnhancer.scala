@@ -1,8 +1,8 @@
-package caseclasses07
+package product.enhancer07
 
 import scala.util.chaining._
 
-import json.Json
+import product.json.Json
 
 import shapeless._
 import shapeless.record._

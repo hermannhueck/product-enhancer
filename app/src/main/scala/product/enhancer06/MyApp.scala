@@ -3,7 +3,7 @@
   It just demonstrates the solution with other case classes and Tuples, also nested ones.
  */
 
-package caseclasses06
+package product.enhancer06
 
 import scala.util.chaining._
 import util._

@@ -10,7 +10,7 @@
     - It is not generic. The implementation must be repeated for every case class.
  */
 
-package caseclasses01
+package product.enhancer01
 
 import scala.util.chaining._
 import util._
