@@ -1,16 +1,16 @@
 package product.enhancer07
 
-import scala.util.chaining._
+// import scala.util.chaining._
 
 import product.json.Json
 
 import shapeless._
-import shapeless.record._
-import shapeless.ops.record.Keys
-import shapeless.ops.hlist
-import shapeless.ops.hlist.Selector
-import shapeless.tag._
-import shapeless.syntax.typeable._
+// import shapeless.record._
+// import shapeless.ops.record.Keys
+// import shapeless.ops.hlist
+// import shapeless.ops.hlist.Selector
+// import shapeless.tag._
+// import shapeless.syntax.typeable._
 
 object ProductEnhancer {
 

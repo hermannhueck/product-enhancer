@@ -40,7 +40,6 @@ object MyApp extends App {
 
   import shapeless._
   import shapeless.record._
-  import shapeless.ops.record._
 
   implicit val genSib     = LabelledGeneric[SIB]
   implicit val genSiboscc = LabelledGeneric[SIBOSCC]
