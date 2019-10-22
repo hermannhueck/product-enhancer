@@ -16,7 +16,7 @@ object App05 extends App {
 
   prtTitleObjectName(this)
 
-  prtSubTitle("4. replace helper with implicit generator which generates ToEncode instances ad hoc")
+  prtSubTitle("5. implemented cache for ToEncode instances")
 
   trait ToEncode {
     type Value
