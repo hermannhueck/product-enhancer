@@ -9,7 +9,7 @@ val supportedScalaVersions = List(scala213)
 def scalaReflect(scalaVersion: String) = "org.scala-lang"         % "scala-reflect"            % scalaVersion
 val collectionCompat                   = "org.scala-lang.modules" %% "scala-collection-compat" % "2.1.2"
 val shapeless                          = "com.chuusai"            %% "shapeless"               % "2.3.3"
-val circe                              = "io.circe"               %% "circe-core"              % "0.12.2"
+val circe                              = "io.circe"               %% "circe-core"              % "0.12.3"
 
 val scalaTest  = "org.scalatest"  %% "scalatest"  % "3.0.8"
 val scalaCheck = "org.scalacheck" %% "scalacheck" % "1.14.2"
