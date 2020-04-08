@@ -1,18 +1,18 @@
 val projectName        = "product-enhancer"
 val projectDescription = "Enhance Products (Scala Case Classes an Tuples) in a generic way"
-val projectVersion     = "0.1.0-SNAPSHOT"
+val projectVersion     = "0.1.0"
 
-val scala212               = "2.12.10"
+val scala212               = "2.12.11"
 val scala213               = "2.13.1"
 val supportedScalaVersions = List(scala213)
 
 def scalaReflect(scalaVersion: String) = "org.scala-lang"         % "scala-reflect"            % scalaVersion
-val collectionCompat                   = "org.scala-lang.modules" %% "scala-collection-compat" % "2.1.2"
+val collectionCompat                   = "org.scala-lang.modules" %% "scala-collection-compat" % "2.1.4"
 val shapeless                          = "com.chuusai"            %% "shapeless"               % "2.3.3"
-val circe                              = "io.circe"               %% "circe-core"              % "0.12.3"
+val circe                              = "io.circe"               %% "circe-core"              % "0.13.0"
 
-val scalaTest  = "org.scalatest"  %% "scalatest"  % "3.0.8"
-val scalaCheck = "org.scalacheck" %% "scalacheck" % "1.14.2"
+val scalaTest  = "org.scalatest"  %% "scalatest"  % "3.1.1"
+val scalaCheck = "org.scalacheck" %% "scalacheck" % "1.14.3"
 
 inThisBuild(
   Seq(
